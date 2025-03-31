@@ -1,0 +1,35 @@
+**Triangle Classification Project**
+This project aims to develop a program that determines the type of a triangle
+based on the three side lengths entered by the user. A triangle can be
+classified as equilateral, isosceles, or scalene depending on its side lengths.
+
+---
+
+**Program Description**
+1. Read the first side length of the triangle from the user.
+2. Read the second side length of the triangle from the user.
+3. Read the third side length of the triangle from the user.
+4. Determine the type and validity of the triangle based on the entered side
+lengths.
+5. Display a message in the console that includes the determined triangle
+type and validity status.
+
+---
+
+**Triangle Types and Validity**
+- **Valid Triangle:** Any side must be shorter than the sum of the other two
+sides and longer than their difference.
+- **Equilateral Triangle:** All three sides are of equal length.
+- **Isosceles Triangle:** Two sides are of equal length, and the third side
+is of a different length.
+- **Scalene Triangle:** All three sides have different lengths.
+- **Invalid Triangle:** The given side lengths do not form a valid triangle.
+
+---
+
+**Key Notes**
+This program determines the type and validity of a triangle based on the
+three side lengths entered by the user and displays the result in the console.
+If the user provides side lengths that do not form a valid triangle or do not
+match the criteria for the specified types, an appropriate error message is
+shown.

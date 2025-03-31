@@ -1,0 +1,33 @@
+**Water Temperature Project**
+
+---
+
+### **Problem**
+Determine the physical state of water (solid, liquid, or gas) based on its temperature.
+
+---
+
+### **Analysis**
+- If the temperature is below 0°C, water is ice, so it is in a solid state.
+- If the temperature is above 100°C, water is in a gaseous state.
+- Otherwise, water is in a liquid state.
+
+---
+
+### **Design**
+1. **Define Variables**:
+   - `water_temperature` (integer)
+
+2. **Take Input from the User**:
+   - `water_temperature` (integer)
+
+3. **Determine the State of Water**:
+   - If `water_temperature` is below 0°C, display: `"Water is in a solid state."`
+   - If `water_temperature` is between 0°C and 100°C (inclusive), display: `"Water is in a liquid state."`
+   - Otherwise, display: `"Water is in a gaseous state."`
+
+4. **Display Output**:
+   - Example Outputs:
+     - If `water_temperature` is -5, output: `"Water is in a solid state."`
+     - If `water_temperature` is 25, output: `"Water is in a liquid state."`
+     - If `water_temperature` is 105, output: `"Water is in a gaseous state."`
