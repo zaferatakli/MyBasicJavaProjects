@@ -10,12 +10,12 @@ public class InformationTechnologiesDepartment implements Department {
     }
 
     @Override
-    public String getDepartmentcode() {
+    public String getDepartmentCode() {
         return departmentCode;
     }
 
     @Override
     public String getDepartmentName() {
-        return "Information Tecnologies Department";
+        return "Information Technologies Department";
     }
 }
